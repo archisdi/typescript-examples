@@ -96,7 +96,7 @@ project.changeName('kbms');
 class OnlyOne {
     private static instance: OnlyOne;
 
-    private constructor(public readonly name:string) {}
+    private constructor(public readonly name:string) {} // even its public, it can be
 
     static getInstance(){
         if (!OnlyOne.instance) {
